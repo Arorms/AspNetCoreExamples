@@ -1,0 +1,50 @@
+# ---> 忽略所有 bin/obj/publish 目录（递归）
+**/bin/
+**/obj/
+**/publish/
+**/artifacts/
+
+# ---> 忽略 wwwroot/lib/ 下的第三方库文件（避免提交 jquery/bootstrap 等）
+HelloWorld/wwwroot/lib/
+
+# ---> IDE & 编辑器缓存文件
+.vs/
+*.user
+*.suo
+*.slnf
+*.cache
+*.log
+*.pidb
+*.psess
+*.sbr
+*.ilk
+*.tlog
+*.VC.db
+*.VC.opendb
+.DS_Store
+Thumbs.db
+
+# ---> VS Code & JetBrains Rider
+.vscode/
+.code-workspace
+.idea/
+*.iml
+
+# ---> NuGet 包与构建缓存
+packages/
+project.assets.json
+project.lock.json
+**/project.assets.json
+**/project.lock.json
+*.nupkg
+*.snupkg
+
+# ---> 用户配置文件
+*.user
+*.orig
+*.bak
+
+# ---> ASP.NET Core 发布配置
+**/Properties/PublishProfiles/
+**/*.pubxml
+**/*.pubxml.user
