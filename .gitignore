@@ -48,3 +48,6 @@ project.lock.json
 **/Properties/PublishProfiles/
 **/*.pubxml
 **/*.pubxml.user
+
+
+**/wwwroot
