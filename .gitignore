@@ -49,5 +49,3 @@ project.lock.json
 **/*.pubxml
 **/*.pubxml.user
 
-
-**/wwwroot
